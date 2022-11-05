@@ -2,11 +2,11 @@ version: '3'
   
 services: 
    api: 
-     build: ./api         
+     image: rexbhaws/backend:latest         
      ports: 
        - "8000:8000" 
   
    web: 
-     build: ./frontend 
+     image: rexbhaws/frontend:latest 
      ports: 
        - "3000:3000"
